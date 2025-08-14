@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niharika Pant - Machine Learning Engineer & AI Researcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 3D Floating Background Elements -->
+    <div class="floating-shapes">
+        <div class="floating-cube floating-shape-1"></div>
+        <div class="floating-sphere floating-shape-2"></div>
+        <div class="floating-pyramid floating-shape-3"></div>
+        <div class="floating-torus floating-shape-4"></div>
+        <div class="floating-octahedron floating-shape-5"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="greeting-container">
+                <h1 id="greeting-text" class="greeting-text">Hello</h1>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <div class="loading-subtitle">Machine Learning Engineer</div>
+            </div>
+            <div class="loading-3d-element">
+                <div class="rotating-cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" data-page="home">
+                <span class="logo-3d">NP</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-page="home">About</a></li>
+                <li><a href="#projects" class="nav-link" data-page="projects">Projects</a></li>
+                <li><a href="#skills" class="nav-link" data-page="home">Skills</a></li>
+                <li><a href="#contact" class="nav-link" data-page="home">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Bottom Name Overlay -->
+    <div id="bottom-name" class="bottom-name-container hidden">
+        <h1 class="bottom-name">
+            <span class="name-part">Niharika</span>
+            <span class="name-part">Pant</span>
+        </h1>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content hidden">
+        
+        <!-- HOME PAGE CONTENT -->
+        <div id="home-page" class="page-content">
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <div class="hero-container">
+                    <div class="hero-background">
+                        <div class="parallax-layer layer-1"></div>
+                        <div class="parallax-layer layer-2"></div>
+                        <div class="parallax-layer layer-3"></div>
+                    </div>
+                    <div class="hero-content">
+                        <div class="hero-info">
+                            <h1 class="hero-title hero-3d">
+                                <span class="title-line">Machine Learning Engineer</span>
+                                <span class="title-line title-accent">& AI Researcher</span>
+                            </h1>
+                            <p class="hero-tagline">Building intelligent systems that solve complex real-world problems</p>
+                            <div class="hero-description">
+                                <p>Passionate ML Engineer with 4+ years of experience developing and deploying AI solutions at scale. Specialized in computer vision, natural language processing, and MLOps.</p>
+                            </div>
+                            <div class="hero-stats">
+                                <div class="stat-item">
+                                    <div class="stat-number">15+</div>
+                                    <div class="stat-label">ML Projects</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">1M+</div>
+                                    <div class="stat-label">Users Served</div>
+                                </div>
+                                <div class="stat-item">
+                                    <div class="stat-number">94%</div>
+                                    <div class="stat-label">Best Accuracy</div>
+                                </div>
+                            </div>
+                            <div class="hero-cta">
+                                <button class="btn btn--primary btn--lg btn-3d" data-navigate="projects">
+                                    <span class="btn-text">View ML Projects</span>
+                                    <span class="btn-icon">🚀</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroll-indicator">
+                        <span>Explore ML Portfolio</span>
+                        <div class="scroll-arrow"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about" class="about-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title section-title-3d">About Me</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-text">
+                            <p class="about-description">Passionate Machine Learning Engineer with 4+ years of experience developing and deploying AI solutions at scale. Specialized in computer vision, natural language processing, and MLOps with a track record of delivering production systems that serve millions of users.</p>
+                            
+                            <div class="specializations-container">
+                                <h3>Specializations</h3>
+                                <div class="specializations-grid">
+                                    <div class="specialization-item">
+                                        <div class="spec-icon">🤖</div>
+                                        <div class="spec-text">Computer Vision</div>
+                                    </div>
+                                    <div class="specialization-item">
+                                        <div class="spec-icon">📝</div>
+                                        <div class="spec-text">Natural Language Processing</div>
+                                    </div>
+                                    <div class="specialization-item">
+                                        <div class="spec-icon">🧠</div>
+                                        <div class="spec-text">Deep Learning</div>
+                                    </div>
+                                    <div class="specialization-item">
+                                        <div class="spec-icon">⚙️</div>
+                                        <div class="spec-text">MLOps</div>
+                                    </div>
+                                    <div class="specialization-item">
+                                        <div class="spec-icon">💡</div>
+                                        <div class="spec-text">Recommender Systems</div>
+                                    </div>
+                                    <div class="specialization-item">
+                                        <div class="spec-icon">📈</div>
+                                        <div class="spec-text">Time Series Analysis</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="certifications-container">
+                                <h3>Certifications</h3>
+                                <div class="certification-list">
+                                    <div class="cert-item">AWS Certified Machine Learning Specialist</div>
+                                    <div class="cert-item">Google Cloud Professional ML Engineer</div>
+                                    <div class="cert-item">TensorFlow Developer Certificate</div>
+                                    <div class="cert-item">Deep Learning Specialization (Coursera)</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-visual">
+                            <div class="about-card about-card-3d">
+                                <div class="card-content">
+                                    <h4>My Approach</h4>
+                                    <p>I combine cutting-edge machine learning techniques with practical engineering solutions to build scalable AI systems that deliver real business value and impact.</p>
+                                    <div class="card-highlight">
+                                        <div class="highlight-stat">99.2%</div>
+                                        <div class="highlight-label">Peak Model Accuracy</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="skills-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title section-title-3d">Technical Skills</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">Languages</h3>
+                            <div class="skill-items">
+                                <div class="skill-item skill-item-3d" data-level="95">
+                                    <div class="skill-icon">🐍</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">Python</div>
+                                        <div class="skill-level">95%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="90">
+                                    <div class="skill-icon">🗃️</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">SQL</div>
+                                        <div class="skill-level">90%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="85">
+                                    <div class="skill-icon">📊</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">R</div>
+                                        <div class="skill-level">85%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="80">
+                                    <div class="skill-icon">⚡</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">JavaScript</div>
+                                        <div class="skill-level">80%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">ML Frameworks</h3>
+                            <div class="skill-items">
+                                <div class="skill-item skill-item-3d" data-level="95">
+                                    <div class="skill-icon">🧠</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">TensorFlow</div>
+                                        <div class="skill-level">95%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="95">
+                                    <div class="skill-icon">📚</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">Scikit-learn</div>
+                                        <div class="skill-level">95%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 95%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="90">
+                                    <div class="skill-icon">🔥</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">PyTorch</div>
+                                        <div class="skill-level">90%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="90">
+                                    <div class="skill-icon">🎯</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">Keras</div>
+                                        <div class="skill-level">90%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h3 class="skill-category-title">Cloud & MLOps</h3>
+                            <div class="skill-items">
+                                <div class="skill-item skill-item-3d" data-level="90">
+                                    <div class="skill-icon">☁️</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">AWS</div>
+                                        <div class="skill-level">90%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="90">
+                                    <div class="skill-icon">🐳</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">Docker</div>
+                                        <div class="skill-level">90%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="85">
+                                    <div class="skill-icon">🌐</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">GCP</div>
+                                        <div class="skill-level">85%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item skill-item-3d" data-level="85">
+                                    <div class="skill-icon">⚙️</div>
+                                    <div class="skill-info">
+                                        <div class="skill-name">Kubernetes</div>
+                                        <div class="skill-level">85%</div>
+                                    </div>
+                                    <div class="skill-bar">
+                                        <div class="skill-progress" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <div class="section-header">
+                        <h2 class="section-title section-title-3d">Let's Build AI Together</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h3>Ready to Collaborate?</h3>
+                            <p>I'm always excited to discuss new ML projects, research opportunities, or potential collaborations. Let's create intelligent solutions that make a real impact.</p>
+                            <div class="contact-details">
+                                <div class="contact-item">
+                                    <div class="contact-icon">📧</div>
+                                    <div class="contact-text">
+                                        <strong>Email</strong>
+                                        <a href="mailto:niharika.ml@gmail.com">niharika.ml@gmail.com</a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">💼</div>
+                                    <div class="contact-text">
+                                        <strong>LinkedIn</strong>
+                                        <a href="https://linkedin.com/in/niharikapant" target="_blank">linkedin.com/in/niharikapant</a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">🐙</div>
+                                    <div class="contact-text">
+                                        <strong>GitHub</strong>
+                                        <a href="https://github.com/niharikapant" target="_blank">github.com/niharikapant</a>
+                                    </div>
+                                </div>
+                                <div class="contact-item">
+                                    <div class="contact-icon">🌍</div>
+                                    <div class="contact-text">
+                                        <strong>Availability</strong>
+                                        <span>Available for remote opportunities worldwide</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form-container">
+                            <form class="contact-form" id="contact-form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" class="form-control form-control-3d" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" class="form-control form-control-3d" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="project" class="form-label">Project Type</label>
+                                    <select id="project" name="project" class="form-control form-control-3d">
+                                        <option value="">Select project type</option>
+                                        <option value="computer-vision">Computer Vision</option>
+                                        <option value="nlp">Natural Language Processing</option>
+                                        <option value="recommendation">Recommendation Systems</option>
+                                        <option value="mlops">MLOps & Infrastructure</option>
+                                        <option value="research">Research Collaboration</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea id="message" name="message" class="form-control form-control-3d" rows="5" required placeholder="Tell me about your ML project or idea..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width btn-3d">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon">🚀</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- PROJECTS PAGE CONTENT -->
+        <div id="projects-page" class="page-content hidden">
+            <!-- Projects Hero Section -->
+            <section class="projects-hero-section">
+                <div class="container">
+                    <div class="breadcrumb">
+                        <button class="breadcrumb-link" data-navigate="home">Home</button>
+                        <span class="breadcrumb-separator">→</span>
+                        <span class="breadcrumb-current">Projects</span>
+                    </div>
+                    <div class="projects-hero-content">
+                        <h1 class="projects-hero-title hero-3d">
+                            <span class="title-line">Machine Learning</span>
+                            <span class="title-line title-accent">Projects Portfolio</span>
+                        </h1>
+                        <p class="projects-hero-description">
+                            Explore my collection of AI and machine learning projects, from computer vision systems to NLP pipelines and recommender engines. Each project showcases end-to-end development with real-world impact.
+                        </p>
+                        <div class="projects-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">4</div>
+                                <div class="stat-label">Featured Projects</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">94%</div>
+                                <div class="stat-label">Peak Accuracy</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">1M+</div>
+                                <div class="stat-label">Users Impacted</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Filter Section -->
+            <section class="projects-filter-section">
+                <div class="container">
+                    <div class="filter-container">
+                        <h3 class="filter-title">Filter by Category</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">
+                                <span class="filter-icon">🎯</span>
+                                <span class="filter-text">All Projects</span>
+                            </button>
+                            <button class="filter-btn" data-filter="Computer Vision">
+                                <span class="filter-icon">👁️</span>
+                                <span class="filter-text">Computer Vision</span>
+                            </button>
+                            <button class="filter-btn" data-filter="Natural Language Processing">
+                                <span class="filter-icon">📝</span>
+                                <span class="filter-text">NLP</span>
+                            </button>
+                            <button class="filter-btn" data-filter="Recommender Systems">
+                                <span class="filter-icon">💡</span>
+                                <span class="filter-text">Recommender Systems</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Grid Section -->
+            <section class="projects-section projects-main-section">
+                <div class="container">
+                    <div class="projects-grid" id="projects-grid">
+                        <!-- Projects will be dynamically generated here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Back to Home CTA -->
+            <section class="back-home-section">
+                <div class="container">
+                    <div class="back-home-content">
+                        <h3>Interested in collaborating?</h3>
+                        <p>Let's discuss how we can work together on your next ML project</p>
+                        <div class="back-home-buttons">
+                            <button class="btn btn--primary btn--lg btn-3d" data-navigate="home" data-scroll="contact">
+                                <span class="btn-text">Get In Touch</span>
+                                <span class="btn-icon">💬</span>
+                            </button>
+                            <button class="btn btn--outline btn--lg btn-3d" data-navigate="home">
+                                <span class="btn-text">Back to Home</span>
+                                <span class="btn-icon">🏠</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Projects - Niharika Pant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="projects-page">
+    <!-- 3D Floating Background Elements -->
+    <div class="floating-shapes">
+        <div class="floating-cube floating-shape-1"></div>
+        <div class="floating-sphere floating-shape-2"></div>
+        <div class="floating-pyramid floating-shape-3"></div>
+        <div class="floating-torus floating-shape-4"></div>
+        <div class="floating-octahedron floating-shape-5"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen projects-loading">
+        <div class="loading-content">
+            <div class="greeting-container">
+                <h1 id="greeting-text" class="greeting-text">Projects</h1>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <div class="loading-subtitle">Machine Learning Portfolio</div>
+            </div>
+            <div class="loading-3d-element">
+                <div class="rotating-cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-3d">NP</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html#hero" class="nav-link">Home</a></li>
+                <li><a href="index.html#about" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="index.html#skills" class="nav-link">Skills</a></li>
+                <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content hidden projects-main">
+        <!-- Projects Hero Section -->
+        <section class="projects-hero-section">
+            <div class="container">
+                <div class="breadcrumb">
+                    <a href="index.html" class="breadcrumb-link">Home</a>
+                    <span class="breadcrumb-separator">→</span>
+                    <span class="breadcrumb-current">Projects</span>
+                </div>
+                <div class="projects-hero-content">
+                    <h1 class="projects-hero-title hero-3d">
+                        <span class="title-line">Machine Learning</span>
+                        <span class="title-line title-accent">Projects Portfolio</span>
+                    </h1>
+                    <p class="projects-hero-description">
+                        Explore my collection of AI and machine learning projects, from computer vision systems to NLP pipelines and recommender engines. Each project showcases end-to-end development with real-world impact.
+                    </p>
+                    <div class="projects-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Featured Projects</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">94%</div>
+                            <div class="stat-label">Peak Accuracy</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">1M+</div>
+                            <div class="stat-label">Users Impacted</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Filter Section -->
+        <section class="projects-filter-section">
+            <div class="container">
+                <div class="filter-container">
+                    <h3 class="filter-title">Filter by Category</h3>
+                    <div class="filter-buttons">
+                        <button class="filter-btn active" data-filter="all">
+                            <span class="filter-icon">🎯</span>
+                            <span class="filter-text">All Projects</span>
+                        </button>
+                        <button class="filter-btn" data-filter="Computer Vision">
+                            <span class="filter-icon">👁️</span>
+                            <span class="filter-text">Computer Vision</span>
+                        </button>
+                        <button class="filter-btn" data-filter="Natural Language Processing">
+                            <span class="filter-icon">📝</span>
+                            <span class="filter-text">NLP</span>
+                        </button>
+                        <button class="filter-btn" data-filter="Recommender Systems">
+                            <span class="filter-icon">💡</span>
+                            <span class="filter-text">Recommender Systems</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid Section -->
+        <section class="projects-section projects-main-section">
+            <div class="container">
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be dynamically generated here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Home CTA -->
+        <section class="back-home-section">
+            <div class="container">
+                <div class="back-home-content">
+                    <h3>Interested in collaborating?</h3>
+                    <p>Let's discuss how we can work together on your next ML project</p>
+                    <div class="back-home-buttons">
+                        <a href="index.html#contact" class="btn btn--primary btn--lg btn-3d">
+                            <span class="btn-text">Get In Touch</span>
+                            <span class="btn-icon">💬</span>
+                        </a>
+                        <a href="index.html#hero" class="btn btn--outline btn--lg btn-3d">
+                            <span class="btn-text">Back to Home</span>
+                            <span class="btn-icon">🏠</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
